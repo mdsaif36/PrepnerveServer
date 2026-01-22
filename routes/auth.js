@@ -22,7 +22,6 @@ router.post('/signup', async (req, res) => {
       [email, hash, fullName]
     );
 
-    // Send Welcome Email
     const emailContent = `
       <div style="font-family: Arial, sans-serif; color: #333;">
         <h1 style="color: #06b6d4;">Welcome to PrepNerve, ${fullName}!</h1>
@@ -61,7 +60,7 @@ router.post('/login', async (req, res) => {
 });
 
 // ==========================================
-// 🚀 SOCIAL LOGIN ROUTES (UPDATED LOGIC)
+// 🚀 SOCIAL LOGIN ROUTES (FIXED)
 // ==========================================
 
 // --- 1. GOOGLE LOGIN ---
@@ -73,7 +72,10 @@ router.get('/google', (req, res) => {
     access_type: 'offline',
     response_type: 'code',
     prompt: 'consent',
-    scope: ['https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/userinfo.email'].join(' '),
+    scope: [
+      'https://www.googleapis.com/auth/userinfo.profile',
+      'https://www.googleapis.com/auth/userinfo.email'
+    ].join(' '),
   };
   const qs = new URLSearchParams(options).toString();
   res.redirect(`${rootUrl}?${qs}`);
@@ -82,6 +84,7 @@ router.get('/google', (req, res) => {
 router.get('/google/callback', async (req, res) => {
   const { code } = req.query;
   try {
+    // A. Exchange code for tokens
     const tokenRes = await fetch('https://oauth2.googleapis.com/token', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -93,14 +96,31 @@ router.get('/google/callback', async (req, res) => {
         grant_type: 'authorization_code',
       }),
     });
-    const { access_token, id_token } = await tokenRes.json();
 
-    const userRes = await fetch(`https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token=${access_token}`, {
-      headers: { Authorization: `Bearer ${id_token}` },
+    const tokens = await tokenRes.json();
+    
+    if (tokens.error) {
+        console.error("Google Token Error:", tokens);
+        return res.redirect(`${FRONTEND_URL}/auth?error=google_token_failed`);
+    }
+
+    const { access_token } = tokens;
+
+    // B. Get User Info (FIXED: Uses access_token in Authorization header)
+    const userRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+      headers: { Authorization: `Bearer ${access_token}` },
     });
-    const { email, name } = await userRes.json();
+    
+    const googleUser = await userRes.json();
+    const { email, name } = googleUser;
 
-    // ✅ LOGIC CHECK: New or Existing?
+    // Safety Check: If Google didn't return an email, stop here.
+    if (!email) {
+       console.error("Google User Error (No Email):", googleUser);
+       return res.redirect(`${FRONTEND_URL}/auth?error=google_no_email`);
+    }
+
+    // C. Database Logic
     let user = await pool.query("SELECT * FROM users WHERE email = $1", [email]);
     let isNewUser = false;
     
@@ -112,16 +132,25 @@ router.get('/google/callback', async (req, res) => {
         [email, dummyHash, name]
       );
       user = newUser;
+      
+      // Optional: Send Welcome Email for Google Users too
+      const emailContent = `
+        <div style="font-family: Arial, sans-serif;">
+          <h1>Welcome, ${name}!</h1>
+          <p>You have successfully signed in with Google.</p>
+        </div>
+      `;
+      // sendEmail(email, "Welcome to PrepNerve!", emailContent);
     }
 
     const token = jwt.sign({ id: user.rows[0].id }, process.env.JWT_SECRET);
     const userData = encodeURIComponent(JSON.stringify(user.rows[0]));
-    const authType = isNewUser ? 'signup' : 'login'; // ✅ Flag for Frontend
+    const authType = isNewUser ? 'signup' : 'login';
     
     res.redirect(`${FRONTEND_URL}/auth?token=${token}&user=${userData}&type=${authType}`);
 
   } catch (err) {
-    console.error("Google Auth Error:", err);
+    console.error("Google Auth Fatal Error:", err);
     res.redirect(`${FRONTEND_URL}/auth?error=google_failed`);
   }
 });
@@ -151,6 +180,11 @@ router.get('/github/callback', async (req, res) => {
       }),
     });
     const tokenData = await tokenRes.json();
+    
+    if (tokenData.error) {
+       return res.redirect(`${FRONTEND_URL}/auth?error=github_token_failed`);
+    }
+
     const access_token = tokenData.access_token;
 
     const userRes = await fetch('https://api.github.com/user', {
@@ -167,9 +201,11 @@ router.get('/github/callback', async (req, res) => {
       email = (emails.find(e => e.primary) || emails[0])?.email;
     }
 
-    if (!email) throw new Error("No email found on GitHub account");
+    if (!email) {
+        console.error("No email found for GitHub user");
+        return res.redirect(`${FRONTEND_URL}/auth?error=github_no_email`);
+    }
 
-    // ✅ LOGIC CHECK: New or Existing?
     let user = await pool.query("SELECT * FROM users WHERE email = $1", [email]);
     let isNewUser = false;
     
@@ -185,7 +221,7 @@ router.get('/github/callback', async (req, res) => {
 
     const token = jwt.sign({ id: user.rows[0].id }, process.env.JWT_SECRET);
     const userData = encodeURIComponent(JSON.stringify(user.rows[0]));
-    const authType = isNewUser ? 'signup' : 'login'; // ✅ Flag for Frontend
+    const authType = isNewUser ? 'signup' : 'login';
     
     res.redirect(`${FRONTEND_URL}/auth?token=${token}&user=${userData}&type=${authType}`);
 
