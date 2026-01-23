@@ -10,7 +10,7 @@ const fs = require('fs');
 const http = require('http');
 const { Server } = require('socket.io');
 
-// ✅ 2. Database import (Uses ./db because index.js is in the root)
+// ✅ 2. Database import
 const pool = require('./db');
 
 // Services
@@ -20,13 +20,15 @@ const { generateMarketUpdate } = require('./services/marketSimulator');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// ✅ CRITICAL FOR RENDER DEPLOYMENT (Fixes Google Auth Redirects)
+app.set('trust proxy', 1); 
+
 // --- ALLOWED ORIGINS CONFIGURATION ---
 const allowedOrigins = [
     'http://localhost:5173',          // Standard Vite port
     'http://localhost:3000',          // Standard React port
     'http://localhost:8081',          // Your current frontend port
     'https://prepnerve.vercel.app',   // Production Vercel URL
-    'https://prepnerve-client.onrender.com', // Production Backend URL
     process.env.FRONTEND_URL          // From .env
 ].filter(Boolean);
 
@@ -54,7 +56,8 @@ const server = http.createServer(app);
 
 // Apply CORS to Socket.io
 const io = new Server(server, {
-    cors: corsOptions
+    cors: corsOptions,
+    transports: ['websocket', 'polling'] // ✅ Added for Render Stability
 });
 
 // Apply CORS to Express
