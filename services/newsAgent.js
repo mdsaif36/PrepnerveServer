@@ -8,46 +8,52 @@ const TECH_FEEDS = [
     "https://www.theverge.com/rss/index.xml",
     "https://wired.com/feed/rss",
     "https://feeds.feedburner.com/TheHackersNews",
-    "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+    "https://www.cnbc.com/id/19854910/device/rss/rss.html" 
 ];
 
 async function fetchAndAnalyzeNews() {
     let newArticlesCount = 0;
     let latestNewsItem = null;
     
-    console.log("📡 Deep Scanning for Job & Career News Only...");
+    console.log("📡 Deep Scanning for Job & Recruitment News...");
 
     for (const feedUrl of TECH_FEEDS) {
         try {
             const feed = await parser.parseURL(feedUrl);
-            const articlesToCheck = feed.items.slice(0, 10); // Increased slice to find more matches
+            
+            // Check top 10 articles per feed to ensure we find job-specific matches
+            const articlesToCheck = feed.items.slice(0, 10);
 
             for (const article of articlesToCheck) {
                 const title = article.title;
                 const titleLower = title.toLowerCase();
                 const contentLower = (article.contentSnippet || "").toLowerCase();
-                
-                // 1. STRENGHTENED JOB FILTER
-                // We only proceed if the title or content contains job-related keywords
-                const jobKeywords = ["hiring", "jobs", "salary", "recruit", "layoff", "fired", "career", "employment", "workforce", "compensation"];
+
+                // 1. MANDATORY JOB FILTER
+                // Define keywords that must be present in the title or summary
+                const jobKeywords = [
+                    "hiring", "jobs", "salary", "recruit", "layoff", 
+                    "fired", "workforce", "employment", "career", "compensation"
+                ];
+
                 const isJobRelated = jobKeywords.some(keyword => 
                     titleLower.includes(keyword) || contentLower.includes(keyword)
                 );
 
-                if (!isJobRelated) continue; // Skip if not related to jobs
+                if (!isJobRelated) continue; // Skip articles that are not job-related
 
                 // 2. Check for duplicates
                 const existingCheck = await pool.query("SELECT id FROM news_feed WHERE title = $1", [title]);
                 if (existingCheck.rows.length > 0) continue;
 
-                // 3. Categorize
+                // 3. Categorize (Strictly Job Focus)
                 let category = "Jobs";
-                if (titleLower.includes("layoff") || titleLower.includes("fired") || titleLower.includes("cut")) {
-                    category = "Layoffs";
-                } else if (titleLower.includes("hiring") || titleLower.includes("recruit")) {
+                if (titleLower.includes("hiring") || titleLower.includes("recruit") || titleLower.includes("jobs")) {
                     category = "Recruitment";
+                } else if (titleLower.includes("layoff") || titleLower.includes("fired") || titleLower.includes("cut")) {
+                    category = "Layoffs";
                 } else if (titleLower.includes("salary") || titleLower.includes("compensation")) {
-                    category = "Salary Trends";
+                    category = "Salary/Market";
                 }
 
                 // 4. Clean Summary
@@ -60,7 +66,7 @@ async function fetchAndAnalyzeNews() {
                     [title, category, summary, "Neutral"]
                 );
 
-                console.log(`✅ Job Item Saved: [${category}] ${title.substring(0, 30)}...`);
+                console.log(`✅ Saved Job News: [${category}] ${title.substring(0, 30)}...`);
                 newArticlesCount++;
                 latestNewsItem = { ...dbResult.rows[0], isNew: true };
             }
@@ -70,7 +76,7 @@ async function fetchAndAnalyzeNews() {
         }
     }
 
-    console.log(`🔄 Cycle Complete. Added ${newArticlesCount} job-specific articles.`);
+    console.log(`🔄 Cycle Complete. Added ${newArticlesCount} new job articles.`);
     return latestNewsItem;
 }
 
