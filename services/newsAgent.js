@@ -8,65 +8,72 @@ const TECH_FEEDS = [
     "https://www.theverge.com/rss/index.xml",
     "https://wired.com/feed/rss",
     "https://feeds.feedburner.com/TheHackersNews",
-    "https://www.cnbc.com/id/19854910/device/rss/rss.html" 
+    "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+    "https://www.zdnet.com/news/rss.xml" // Added extra feed to ensure we reach the 10-15 target
 ];
 
 async function fetchAndAnalyzeNews() {
     let newArticlesCount = 0;
     let latestNewsItem = null;
+    const TARGET_COUNT = 15; // Set target to 15
     
-    console.log("📡 Deep Scanning for Job & Recruitment News...");
+    console.log(`📡 Deep Scanning: Goal is ${TARGET_COUNT} job articles...`);
 
     for (const feedUrl of TECH_FEEDS) {
+        // Stop if we have already reached our target for this update cycle
+        if (newArticlesCount >= TARGET_COUNT) break;
+
         try {
             const feed = await parser.parseURL(feedUrl);
             
-            // Check top 10 articles per feed to ensure we find job-specific matches
-            const articlesToCheck = feed.items.slice(0, 10);
+            // Scan deeper into each feed (top 20) to find enough job-related items
+            const articlesToCheck = feed.items.slice(0, 20);
 
             for (const article of articlesToCheck) {
+                if (newArticlesCount >= TARGET_COUNT) break;
+
                 const title = article.title;
                 const titleLower = title.toLowerCase();
                 const contentLower = (article.contentSnippet || "").toLowerCase();
 
-                // 1. MANDATORY JOB FILTER
-                // Define keywords that must be present in the title or summary
+                // 1. STRICT JOB FILTER
                 const jobKeywords = [
                     "hiring", "jobs", "salary", "recruit", "layoff", 
-                    "fired", "workforce", "employment", "career", "compensation"
+                    "fired", "workforce", "employment", "career", "compensation",
+                    "positions", "staffing", "openings", "talent"
                 ];
 
                 const isJobRelated = jobKeywords.some(keyword => 
                     titleLower.includes(keyword) || contentLower.includes(keyword)
                 );
 
-                if (!isJobRelated) continue; // Skip articles that are not job-related
+                if (!isJobRelated) continue; 
 
-                // 2. Check for duplicates
+                // 2. DUPLICATE CHECK
                 const existingCheck = await pool.query("SELECT id FROM news_feed WHERE title = $1", [title]);
                 if (existingCheck.rows.length > 0) continue;
 
-                // 3. Categorize (Strictly Job Focus)
+                // 3. CATEGORIZATION
                 let category = "Jobs";
-                if (titleLower.includes("hiring") || titleLower.includes("recruit") || titleLower.includes("jobs")) {
-                    category = "Recruitment";
-                } else if (titleLower.includes("layoff") || titleLower.includes("fired") || titleLower.includes("cut")) {
+                if (titleLower.includes("layoff") || titleLower.includes("fired") || titleLower.includes("cut")) {
                     category = "Layoffs";
-                } else if (titleLower.includes("salary") || titleLower.includes("compensation")) {
-                    category = "Salary/Market";
+                } else if (titleLower.includes("hiring") || titleLower.includes("recruit") || titleLower.includes("openings")) {
+                    category = "Recruitment";
                 }
 
-                // 4. Clean Summary
-                const summary = article.contentSnippet?.substring(0, 150) + "..." || "Click to read full story.";
-
-                // 5. Insert into DB
+                // 4. INSERT INTO DATABASE
                 const dbResult = await pool.query(
                     `INSERT INTO news_feed (title, category, summary, sentiment) 
                      VALUES ($1, $2, $3, $4) RETURNING *`,
-                    [title, category, summary, "Neutral"]
+                    [
+                        title, 
+                        category, 
+                        article.contentSnippet?.substring(0, 160) + "..." || "Job market update.", 
+                        "Neutral"
+                    ]
                 );
 
-                console.log(`✅ Saved Job News: [${category}] ${title.substring(0, 30)}...`);
+                console.log(`✅ [${newArticlesCount + 1}/${TARGET_COUNT}] Saved: ${title.substring(0, 40)}...`);
                 newArticlesCount++;
                 latestNewsItem = { ...dbResult.rows[0], isNew: true };
             }
@@ -76,7 +83,7 @@ async function fetchAndAnalyzeNews() {
         }
     }
 
-    console.log(`🔄 Cycle Complete. Added ${newArticlesCount} new job articles.`);
+    console.log(`🔄 Cycle Complete. Total Job Articles added: ${newArticlesCount}`);
     return latestNewsItem;
 }
 
