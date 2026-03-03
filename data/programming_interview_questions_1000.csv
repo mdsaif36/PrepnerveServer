@@ -1,0 +1,1001 @@
+id,difficulty,category,question
+1,Hard,Trees,Architect a high-performance solution to find kth largest element.
+2,Hard,Greedy Algorithms,Architect a high-performance solution to implement Dijkstra's algorithm.
+3,Easy,Dynamic Programming,Write a program to solve N-Queens problem.
+4,Hard,Recursion & Backtracking,Architect a high-performance solution to solve the knapsack problem.
+5,Hard,Dynamic Programming,Handle edge cases while implementing reverse an array.
+6,Hard,Arrays,Solve reverse an array with optimal time and space complexity.
+7,Hard,Arrays,Architect a high-performance solution to reverse an array.
+8,Easy,Greedy Algorithms,Find validate parentheses.
+9,Hard,Linked List,Implement an advanced solution for validate parentheses.
+10,Hard,Strings,Solve detect a cycle in a linked list with optimal time and space complexity.
+11,Easy,Greedy Algorithms,Implement find majority element.
+12,Medium,Stack & Queue,Solve solve N-Queens problem using appropriate data structures.
+13,Medium,Searching & Sorting,Design an efficient solution to detect palindrome string.
+14,Hard,Greedy Algorithms,Implement an advanced solution for generate all permutations of a string.
+15,Medium,Searching & Sorting,Design an efficient solution to perform level order traversal of a tree.
+16,Easy,Linked List,Create a function to find majority element.
+17,Easy,Greedy Algorithms,Write a program to generate all permutations of a string.
+18,Medium,Greedy Algorithms,Optimize an algorithm to merge two sorted arrays.
+19,Easy,Recursion & Backtracking,Solve the problem of detect palindrome string.
+20,Medium,Arrays,Optimize an algorithm to find the longest substring without repeating characters.
+21,Easy,Arrays,Write a program to implement a stack using queues.
+22,Hard,Arrays,Architect a high-performance solution to find shortest path in a graph.
+23,Easy,Arrays,Write a program to count inversions in an array.
+24,Medium,Dynamic Programming,Implement validate parentheses with time complexity O(n log n) or better.
+25,Hard,Trees,Solve perform level order traversal of a tree with optimal time and space complexity.
+26,Medium,Strings,Optimize an algorithm to find majority element.
+27,Medium,Strings,Design an efficient solution to implement a stack using queues.
+28,Easy,Recursion & Backtracking,Implement find maximum depth of a binary tree.
+29,Medium,Graphs,Explain and implement an approach to validate parentheses.
+30,Medium,Graphs,Explain and implement an approach to find connected components in a graph.
+31,Easy,Arrays,Implement generate all permutations of a string.
+32,Easy,Greedy Algorithms,Solve the problem of find kth largest element.
+33,Hard,Arrays,Solve detect palindrome string with optimal time and space complexity.
+34,Easy,Trees,Solve the problem of solve N-Queens problem.
+35,Medium,Strings,Explain and implement an approach to detect a cycle in a linked list.
+36,Medium,Stack & Queue,Explain and implement an approach to implement LRU cache.
+37,Hard,Trees,Architect a high-performance solution to count inversions in an array.
+38,Hard,Linked List,Solve find shortest path in a graph with optimal time and space complexity.
+39,Hard,Trees,Design a scalable algorithm to implement a stack using queues.
+40,Hard,Searching & Sorting,Solve find the longest substring without repeating characters with optimal time and space complexity.
+41,Hard,Dynamic Programming,Design a scalable algorithm to find majority element.
+42,Easy,Searching & Sorting,Implement implement a stack using queues.
+43,Hard,Linked List,Design a scalable algorithm to find shortest path in a graph.
+44,Hard,Linked List,Architect a high-performance solution to solve N-Queens problem.
+45,Medium,Dynamic Programming,Design an efficient solution to solve the knapsack problem.
+46,Hard,Stack & Queue,Implement an advanced solution for implement LRU cache.
+47,Easy,Arrays,Solve the problem of find shortest path in a graph.
+48,Hard,Stack & Queue,Architect a high-performance solution to find the longest substring without repeating characters.
+49,Hard,Linked List,Solve find the longest substring without repeating characters with optimal time and space complexity.
+50,Hard,Trees,Implement an advanced solution for find maximum depth of a binary tree.
+51,Easy,Strings,Solve the problem of find majority element.
+52,Medium,Strings,Design an efficient solution to find the longest substring without repeating characters.
+53,Hard,Dynamic Programming,Architect a high-performance solution to implement Dijkstra's algorithm.
+54,Easy,Trees,Create a function to solve N-Queens problem.
+55,Easy,Dynamic Programming,Write a program to solve the knapsack problem.
+56,Hard,Linked List,Implement an advanced solution for perform level order traversal of a tree.
+57,Hard,Stack & Queue,Handle edge cases while implementing find shortest path in a graph.
+58,Easy,Dynamic Programming,Solve the problem of find shortest path in a graph.
+59,Hard,Strings,Handle edge cases while implementing solve the knapsack problem.
+60,Hard,Arrays,Design a scalable algorithm to find connected components in a graph.
+61,Hard,Greedy Algorithms,Handle edge cases while implementing find kth largest element.
+62,Easy,Arrays,Solve the problem of implement a stack using queues.
+63,Medium,Dynamic Programming,Optimize an algorithm to validate parentheses.
+64,Easy,Greedy Algorithms,Create a function to implement Dijkstra's algorithm.
+65,Hard,Trees,Architect a high-performance solution to solve N-Queens problem.
+66,Medium,Linked List,Design an efficient solution to find maximum depth of a binary tree.
+67,Easy,Stack & Queue,Create a function to generate all permutations of a string.
+68,Hard,Graphs,Handle edge cases while implementing find connected components in a graph.
+69,Easy,Graphs,Write a program to perform level order traversal of a tree.
+70,Medium,Trees,Explain and implement an approach to find connected components in a graph.
+71,Hard,Recursion & Backtracking,Architect a high-performance solution to implement LRU cache.
+72,Easy,Linked List,Solve the problem of detect a cycle in a linked list.
+73,Easy,Recursion & Backtracking,Create a function to find shortest path in a graph.
+74,Hard,Recursion & Backtracking,Architect a high-performance solution to detect palindrome string.
+75,Hard,Stack & Queue,Design a scalable algorithm to count inversions in an array.
+76,Medium,Greedy Algorithms,Implement count inversions in an array with time complexity O(n log n) or better.
+77,Medium,Strings,Design an efficient solution to count inversions in an array.
+78,Medium,Dynamic Programming,Explain and implement an approach to find kth largest element.
+79,Easy,Arrays,Write a program to solve N-Queens problem.
+80,Hard,Searching & Sorting,Implement an advanced solution for find the longest substring without repeating characters.
+81,Hard,Stack & Queue,Handle edge cases while implementing find the longest substring without repeating characters.
+82,Medium,Greedy Algorithms,Optimize an algorithm to search an element using binary search.
+83,Easy,Trees,Solve the problem of implement LRU cache.
+84,Medium,Graphs,Design an efficient solution to find kth largest element.
+85,Easy,Strings,Implement find maximum depth of a binary tree.
+86,Medium,Strings,Implement count inversions in an array with time complexity O(n log n) or better.
+87,Hard,Recursion & Backtracking,Implement an advanced solution for reverse an array.
+88,Medium,Graphs,Design an efficient solution to implement LRU cache.
+89,Medium,Dynamic Programming,Implement solve N-Queens problem with time complexity O(n log n) or better.
+90,Hard,Arrays,Architect a high-performance solution to validate parentheses.
+91,Easy,Greedy Algorithms,Solve the problem of find kth largest element.
+92,Easy,Trees,Solve the problem of search an element using binary search.
+93,Hard,Searching & Sorting,Design a scalable algorithm to implement Dijkstra's algorithm.
+94,Easy,Trees,Implement detect a cycle in a linked list.
+95,Medium,Linked List,Design an efficient solution to count inversions in an array.
+96,Easy,Dynamic Programming,Create a function to solve the knapsack problem.
+97,Easy,Trees,Implement search an element using binary search.
+98,Hard,Graphs,Handle edge cases while implementing find shortest path in a graph.
+99,Medium,Searching & Sorting,Design an efficient solution to find kth largest element.
+100,Medium,Greedy Algorithms,Explain and implement an approach to validate parentheses.
+101,Medium,Searching & Sorting,Design an efficient solution to implement a stack using queues.
+102,Hard,Recursion & Backtracking,Solve validate parentheses with optimal time and space complexity.
+103,Easy,Stack & Queue,Create a function to search an element using binary search.
+104,Medium,Recursion & Backtracking,Solve find connected components in a graph using appropriate data structures.
+105,Hard,Greedy Algorithms,Architect a high-performance solution to find connected components in a graph.
+106,Hard,Searching & Sorting,Architect a high-performance solution to find maximum depth of a binary tree.
+107,Hard,Strings,Design a scalable algorithm to perform level order traversal of a tree.
+108,Hard,Dynamic Programming,Implement an advanced solution for implement a stack using queues.
+109,Easy,Searching & Sorting,Create a function to find kth largest element.
+110,Medium,Greedy Algorithms,Design an efficient solution to find majority element.
+111,Easy,Greedy Algorithms,Solve the problem of reverse an array.
+112,Medium,Searching & Sorting,Design an efficient solution to solve the knapsack problem.
+113,Easy,Trees,Implement perform level order traversal of a tree.
+114,Medium,Trees,Solve solve the knapsack problem using appropriate data structures.
+115,Hard,Stack & Queue,Architect a high-performance solution to solve N-Queens problem.
+116,Medium,Greedy Algorithms,Explain and implement an approach to implement a stack using queues.
+117,Hard,Graphs,Solve generate all permutations of a string with optimal time and space complexity.
+118,Medium,Dynamic Programming,Explain and implement an approach to find the longest substring without repeating characters.
+119,Hard,Searching & Sorting,Implement an advanced solution for implement a stack using queues.
+120,Medium,Dynamic Programming,Implement reverse an array with time complexity O(n log n) or better.
+121,Easy,Searching & Sorting,Create a function to search an element using binary search.
+122,Easy,Stack & Queue,Implement merge two sorted arrays.
+123,Hard,Trees,Handle edge cases while implementing find majority element.
+124,Hard,Trees,Handle edge cases while implementing find connected components in a graph.
+125,Medium,Stack & Queue,Explain and implement an approach to find the longest substring without repeating characters.
+126,Hard,Graphs,Design a scalable algorithm to search an element using binary search.
+127,Easy,Arrays,Write a program to find majority element.
+128,Medium,Trees,Design an efficient solution to find maximum depth of a binary tree.
+129,Hard,Graphs,Design a scalable algorithm to implement LRU cache.
+130,Easy,Graphs,Create a function to count inversions in an array.
+131,Easy,Dynamic Programming,Solve the problem of validate parentheses.
+132,Easy,Recursion & Backtracking,Solve the problem of solve N-Queens problem.
+133,Easy,Dynamic Programming,Implement find majority element.
+134,Medium,Searching & Sorting,Optimize an algorithm to implement Dijkstra's algorithm.
+135,Medium,Greedy Algorithms,Design an efficient solution to search an element using binary search.
+136,Hard,Arrays,Design a scalable algorithm to validate parentheses.
+137,Medium,Strings,Optimize an algorithm to implement a stack using queues.
+138,Hard,Arrays,Implement an advanced solution for find connected components in a graph.
+139,Hard,Dynamic Programming,Design a scalable algorithm to search an element using binary search.
+140,Hard,Greedy Algorithms,Architect a high-performance solution to detect a cycle in a linked list.
+141,Easy,Dynamic Programming,Write a program to reverse an array.
+142,Hard,Stack & Queue,Design a scalable algorithm to perform level order traversal of a tree.
+143,Easy,Arrays,Implement find majority element.
+144,Easy,Trees,Create a function to reverse an array.
+145,Easy,Linked List,Write a program to implement Dijkstra's algorithm.
+146,Hard,Stack & Queue,Implement an advanced solution for validate parentheses.
+147,Medium,Trees,Design an efficient solution to find kth largest element.
+148,Easy,Recursion & Backtracking,Create a function to implement a stack using queues.
+149,Easy,Recursion & Backtracking,Create a function to generate all permutations of a string.
+150,Medium,Dynamic Programming,Solve find connected components in a graph using appropriate data structures.
+151,Hard,Stack & Queue,Design a scalable algorithm to generate all permutations of a string.
+152,Hard,Greedy Algorithms,Solve reverse an array with optimal time and space complexity.
+153,Medium,Searching & Sorting,Optimize an algorithm to find kth largest element.
+154,Hard,Recursion & Backtracking,Architect a high-performance solution to find majority element.
+155,Medium,Searching & Sorting,Solve search an element using binary search using appropriate data structures.
+156,Medium,Linked List,Implement reverse an array with time complexity O(n log n) or better.
+157,Hard,Arrays,Implement an advanced solution for find shortest path in a graph.
+158,Hard,Stack & Queue,Design a scalable algorithm to find majority element.
+159,Easy,Strings,Find detect palindrome string.
+160,Medium,Trees,Design an efficient solution to solve the knapsack problem.
+161,Medium,Arrays,Implement reverse an array with time complexity O(n log n) or better.
+162,Hard,Stack & Queue,Design a scalable algorithm to find majority element.
+163,Easy,Dynamic Programming,Create a function to merge two sorted arrays.
+164,Hard,Graphs,Handle edge cases while implementing search an element using binary search.
+165,Hard,Arrays,Design a scalable algorithm to merge two sorted arrays.
+166,Hard,Arrays,Handle edge cases while implementing solve the knapsack problem.
+167,Easy,Recursion & Backtracking,Solve the problem of search an element using binary search.
+168,Easy,Linked List,Find find connected components in a graph.
+169,Medium,Trees,Optimize an algorithm to perform level order traversal of a tree.
+170,Easy,Graphs,Implement implement Dijkstra's algorithm.
+171,Hard,Graphs,Solve detect a cycle in a linked list with optimal time and space complexity.
+172,Hard,Linked List,Architect a high-performance solution to detect palindrome string.
+173,Medium,Strings,Explain and implement an approach to merge two sorted arrays.
+174,Hard,Strings,Architect a high-performance solution to merge two sorted arrays.
+175,Easy,Greedy Algorithms,Create a function to implement a stack using queues.
+176,Hard,Strings,Implement an advanced solution for implement Dijkstra's algorithm.
+177,Medium,Strings,Solve generate all permutations of a string using appropriate data structures.
+178,Easy,Dynamic Programming,Create a function to detect palindrome string.
+179,Hard,Dynamic Programming,Design a scalable algorithm to generate all permutations of a string.
+180,Hard,Recursion & Backtracking,Implement an advanced solution for detect a cycle in a linked list.
+181,Easy,Recursion & Backtracking,Solve the problem of find connected components in a graph.
+182,Medium,Graphs,Optimize an algorithm to implement a stack using queues.
+183,Hard,Stack & Queue,Implement an advanced solution for count inversions in an array.
+184,Hard,Graphs,Implement an advanced solution for implement a stack using queues.
+185,Easy,Stack & Queue,Find search an element using binary search.
+186,Hard,Searching & Sorting,Implement an advanced solution for solve the knapsack problem.
+187,Easy,Graphs,Create a function to implement LRU cache.
+188,Medium,Recursion & Backtracking,Explain and implement an approach to perform level order traversal of a tree.
+189,Hard,Greedy Algorithms,Design a scalable algorithm to implement a stack using queues.
+190,Medium,Trees,Explain and implement an approach to solve the knapsack problem.
+191,Easy,Strings,Create a function to reverse an array.
+192,Medium,Greedy Algorithms,Design an efficient solution to solve N-Queens problem.
+193,Hard,Arrays,Design a scalable algorithm to implement LRU cache.
+194,Medium,Strings,Explain and implement an approach to find maximum depth of a binary tree.
+195,Easy,Dynamic Programming,Write a program to detect palindrome string.
+196,Easy,Greedy Algorithms,Write a program to solve N-Queens problem.
+197,Medium,Searching & Sorting,Solve solve the knapsack problem using appropriate data structures.
+198,Hard,Recursion & Backtracking,Implement an advanced solution for find majority element.
+199,Hard,Dynamic Programming,Design a scalable algorithm to reverse an array.
+200,Easy,Recursion & Backtracking,Implement implement a stack using queues.
+201,Hard,Greedy Algorithms,Implement an advanced solution for implement LRU cache.
+202,Hard,Graphs,Solve perform level order traversal of a tree with optimal time and space complexity.
+203,Medium,Trees,Optimize an algorithm to implement LRU cache.
+204,Hard,Searching & Sorting,Solve find kth largest element with optimal time and space complexity.
+205,Medium,Dynamic Programming,Explain and implement an approach to solve the knapsack problem.
+206,Medium,Trees,Solve detect a cycle in a linked list using appropriate data structures.
+207,Hard,Stack & Queue,Design a scalable algorithm to merge two sorted arrays.
+208,Hard,Linked List,Implement an advanced solution for detect a cycle in a linked list.
+209,Easy,Stack & Queue,Create a function to implement LRU cache.
+210,Easy,Recursion & Backtracking,Implement reverse an array.
+211,Easy,Trees,Solve the problem of merge two sorted arrays.
+212,Easy,Graphs,Solve the problem of find connected components in a graph.
+213,Hard,Stack & Queue,Design a scalable algorithm to implement LRU cache.
+214,Hard,Greedy Algorithms,Architect a high-performance solution to validate parentheses.
+215,Hard,Arrays,Design a scalable algorithm to detect palindrome string.
+216,Easy,Dynamic Programming,Create a function to solve the knapsack problem.
+217,Easy,Searching & Sorting,Create a function to solve the knapsack problem.
+218,Easy,Trees,Solve the problem of find maximum depth of a binary tree.
+219,Hard,Trees,Handle edge cases while implementing solve N-Queens problem.
+220,Easy,Trees,Find perform level order traversal of a tree.
+221,Hard,Stack & Queue,Design a scalable algorithm to find majority element.
+222,Medium,Searching & Sorting,Optimize an algorithm to validate parentheses.
+223,Medium,Stack & Queue,Optimize an algorithm to solve the knapsack problem.
+224,Hard,Trees,Architect a high-performance solution to search an element using binary search.
+225,Hard,Stack & Queue,Implement an advanced solution for perform level order traversal of a tree.
+226,Hard,Greedy Algorithms,Solve detect palindrome string with optimal time and space complexity.
+227,Hard,Recursion & Backtracking,Solve implement a stack using queues with optimal time and space complexity.
+228,Hard,Arrays,Design a scalable algorithm to implement LRU cache.
+229,Medium,Strings,Solve validate parentheses using appropriate data structures.
+230,Easy,Greedy Algorithms,Find reverse an array.
+231,Medium,Dynamic Programming,Optimize an algorithm to implement LRU cache.
+232,Easy,Stack & Queue,Solve the problem of merge two sorted arrays.
+233,Easy,Greedy Algorithms,Find merge two sorted arrays.
+234,Medium,Searching & Sorting,Design an efficient solution to detect a cycle in a linked list.
+235,Medium,Recursion & Backtracking,Explain and implement an approach to validate parentheses.
+236,Medium,Recursion & Backtracking,Optimize an algorithm to solve the knapsack problem.
+237,Medium,Searching & Sorting,Solve search an element using binary search using appropriate data structures.
+238,Easy,Dynamic Programming,Solve the problem of find kth largest element.
+239,Medium,Searching & Sorting,Design an efficient solution to detect a cycle in a linked list.
+240,Easy,Graphs,Find find majority element.
+241,Hard,Strings,Architect a high-performance solution to reverse an array.
+242,Hard,Greedy Algorithms,Implement an advanced solution for solve N-Queens problem.
+243,Hard,Arrays,Architect a high-performance solution to reverse an array.
+244,Medium,Arrays,Optimize an algorithm to implement Dijkstra's algorithm.
+245,Hard,Strings,Solve count inversions in an array with optimal time and space complexity.
+246,Medium,Linked List,Optimize an algorithm to implement a stack using queues.
+247,Medium,Stack & Queue,Optimize an algorithm to find connected components in a graph.
+248,Easy,Linked List,Write a program to find shortest path in a graph.
+249,Medium,Graphs,Design an efficient solution to search an element using binary search.
+250,Medium,Searching & Sorting,Design an efficient solution to find majority element.
+251,Medium,Arrays,Design an efficient solution to find connected components in a graph.
+252,Medium,Linked List,Implement find the longest substring without repeating characters with time complexity O(n log n) or better.
+253,Medium,Recursion & Backtracking,Design an efficient solution to implement a stack using queues.
+254,Easy,Searching & Sorting,Implement find majority element.
+255,Hard,Searching & Sorting,Design a scalable algorithm to validate parentheses.
+256,Medium,Greedy Algorithms,Implement implement a stack using queues with time complexity O(n log n) or better.
+257,Easy,Greedy Algorithms,Implement solve the knapsack problem.
+258,Easy,Arrays,Implement implement Dijkstra's algorithm.
+259,Hard,Graphs,Design a scalable algorithm to detect a cycle in a linked list.
+260,Medium,Graphs,Solve detect a cycle in a linked list using appropriate data structures.
+261,Medium,Recursion & Backtracking,Solve count inversions in an array using appropriate data structures.
+262,Easy,Recursion & Backtracking,Write a program to implement a stack using queues.
+263,Easy,Arrays,Write a program to solve the knapsack problem.
+264,Medium,Arrays,Solve detect a cycle in a linked list using appropriate data structures.
+265,Hard,Stack & Queue,Design a scalable algorithm to perform level order traversal of a tree.
+266,Easy,Linked List,Implement implement LRU cache.
+267,Hard,Stack & Queue,Solve solve the knapsack problem with optimal time and space complexity.
+268,Easy,Greedy Algorithms,Find solve the knapsack problem.
+269,Easy,Recursion & Backtracking,Solve the problem of reverse an array.
+270,Medium,Trees,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+271,Easy,Arrays,Solve the problem of find maximum depth of a binary tree.
+272,Hard,Searching & Sorting,Solve merge two sorted arrays with optimal time and space complexity.
+273,Medium,Stack & Queue,Optimize an algorithm to reverse an array.
+274,Medium,Greedy Algorithms,Implement find the longest substring without repeating characters with time complexity O(n log n) or better.
+275,Easy,Strings,Find reverse an array.
+276,Easy,Searching & Sorting,Implement validate parentheses.
+277,Easy,Trees,Find implement LRU cache.
+278,Medium,Dynamic Programming,Explain and implement an approach to detect palindrome string.
+279,Easy,Trees,Implement detect a cycle in a linked list.
+280,Easy,Recursion & Backtracking,Implement detect a cycle in a linked list.
+281,Medium,Dynamic Programming,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+282,Medium,Arrays,Optimize an algorithm to find connected components in a graph.
+283,Hard,Greedy Algorithms,Handle edge cases while implementing detect palindrome string.
+284,Easy,Graphs,Implement count inversions in an array.
+285,Easy,Strings,Write a program to find kth largest element.
+286,Easy,Stack & Queue,Implement generate all permutations of a string.
+287,Medium,Greedy Algorithms,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+288,Hard,Searching & Sorting,Handle edge cases while implementing generate all permutations of a string.
+289,Hard,Searching & Sorting,Design a scalable algorithm to find majority element.
+290,Easy,Stack & Queue,Find solve N-Queens problem.
+291,Medium,Linked List,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+292,Easy,Stack & Queue,Write a program to solve the knapsack problem.
+293,Easy,Greedy Algorithms,Create a function to implement Dijkstra's algorithm.
+294,Easy,Linked List,Write a program to reverse an array.
+295,Hard,Recursion & Backtracking,Handle edge cases while implementing search an element using binary search.
+296,Medium,Greedy Algorithms,Solve perform level order traversal of a tree using appropriate data structures.
+297,Easy,Graphs,Solve the problem of count inversions in an array.
+298,Medium,Trees,Optimize an algorithm to solve N-Queens problem.
+299,Hard,Searching & Sorting,Implement an advanced solution for detect palindrome string.
+300,Hard,Stack & Queue,Design a scalable algorithm to search an element using binary search.
+301,Medium,Arrays,Implement merge two sorted arrays with time complexity O(n log n) or better.
+302,Easy,Stack & Queue,Find find shortest path in a graph.
+303,Easy,Greedy Algorithms,Solve the problem of solve N-Queens problem.
+304,Hard,Linked List,Handle edge cases while implementing implement Dijkstra's algorithm.
+305,Easy,Stack & Queue,Implement validate parentheses.
+306,Medium,Graphs,Optimize an algorithm to perform level order traversal of a tree.
+307,Hard,Linked List,Handle edge cases while implementing merge two sorted arrays.
+308,Medium,Recursion & Backtracking,Optimize an algorithm to search an element using binary search.
+309,Hard,Strings,Solve find shortest path in a graph with optimal time and space complexity.
+310,Hard,Graphs,Architect a high-performance solution to find kth largest element.
+311,Medium,Stack & Queue,Design an efficient solution to generate all permutations of a string.
+312,Easy,Recursion & Backtracking,Implement perform level order traversal of a tree.
+313,Medium,Strings,Solve implement a stack using queues using appropriate data structures.
+314,Easy,Trees,Create a function to implement LRU cache.
+315,Easy,Stack & Queue,Write a program to solve the knapsack problem.
+316,Easy,Searching & Sorting,Implement find maximum depth of a binary tree.
+317,Medium,Linked List,Explain and implement an approach to implement Dijkstra's algorithm.
+318,Easy,Stack & Queue,Create a function to implement LRU cache.
+319,Medium,Recursion & Backtracking,Implement generate all permutations of a string with time complexity O(n log n) or better.
+320,Easy,Arrays,Create a function to implement Dijkstra's algorithm.
+321,Easy,Linked List,Write a program to solve the knapsack problem.
+322,Medium,Graphs,Solve detect a cycle in a linked list using appropriate data structures.
+323,Hard,Stack & Queue,Solve validate parentheses with optimal time and space complexity.
+324,Easy,Graphs,Find merge two sorted arrays.
+325,Easy,Dynamic Programming,Write a program to reverse an array.
+326,Medium,Graphs,Optimize an algorithm to merge two sorted arrays.
+327,Hard,Greedy Algorithms,Architect a high-performance solution to solve N-Queens problem.
+328,Medium,Recursion & Backtracking,Explain and implement an approach to merge two sorted arrays.
+329,Medium,Searching & Sorting,Solve find shortest path in a graph using appropriate data structures.
+330,Hard,Strings,Handle edge cases while implementing count inversions in an array.
+331,Hard,Searching & Sorting,Handle edge cases while implementing implement LRU cache.
+332,Easy,Strings,Implement reverse an array.
+333,Hard,Searching & Sorting,Architect a high-performance solution to perform level order traversal of a tree.
+334,Hard,Trees,Handle edge cases while implementing merge two sorted arrays.
+335,Medium,Arrays,Implement find the longest substring without repeating characters with time complexity O(n log n) or better.
+336,Medium,Trees,Solve reverse an array using appropriate data structures.
+337,Easy,Stack & Queue,Write a program to implement a stack using queues.
+338,Medium,Recursion & Backtracking,Design an efficient solution to detect palindrome string.
+339,Hard,Arrays,Solve validate parentheses with optimal time and space complexity.
+340,Easy,Recursion & Backtracking,Create a function to implement a stack using queues.
+341,Easy,Trees,Implement find maximum depth of a binary tree.
+342,Easy,Trees,Solve the problem of detect palindrome string.
+343,Hard,Graphs,Handle edge cases while implementing merge two sorted arrays.
+344,Medium,Searching & Sorting,Explain and implement an approach to merge two sorted arrays.
+345,Hard,Dynamic Programming,Design a scalable algorithm to find majority element.
+346,Hard,Greedy Algorithms,Implement an advanced solution for find majority element.
+347,Easy,Graphs,Create a function to implement LRU cache.
+348,Easy,Greedy Algorithms,Create a function to solve N-Queens problem.
+349,Medium,Searching & Sorting,Explain and implement an approach to find majority element.
+350,Medium,Searching & Sorting,Solve validate parentheses using appropriate data structures.
+351,Hard,Strings,Handle edge cases while implementing find connected components in a graph.
+352,Hard,Arrays,Architect a high-performance solution to validate parentheses.
+353,Hard,Arrays,Handle edge cases while implementing perform level order traversal of a tree.
+354,Medium,Stack & Queue,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+355,Medium,Searching & Sorting,Solve count inversions in an array using appropriate data structures.
+356,Easy,Arrays,Find search an element using binary search.
+357,Easy,Dynamic Programming,Write a program to find the longest substring without repeating characters.
+358,Medium,Graphs,Design an efficient solution to find the longest substring without repeating characters.
+359,Medium,Graphs,Solve find majority element using appropriate data structures.
+360,Hard,Graphs,Handle edge cases while implementing implement Dijkstra's algorithm.
+361,Hard,Trees,Design a scalable algorithm to generate all permutations of a string.
+362,Hard,Arrays,Handle edge cases while implementing generate all permutations of a string.
+363,Easy,Recursion & Backtracking,Implement find kth largest element.
+364,Easy,Recursion & Backtracking,Find find majority element.
+365,Easy,Strings,Create a function to find shortest path in a graph.
+366,Easy,Dynamic Programming,Implement solve N-Queens problem.
+367,Medium,Arrays,Implement reverse an array with time complexity O(n log n) or better.
+368,Hard,Greedy Algorithms,Implement an advanced solution for detect a cycle in a linked list.
+369,Hard,Dynamic Programming,Handle edge cases while implementing find maximum depth of a binary tree.
+370,Hard,Searching & Sorting,Solve solve N-Queens problem with optimal time and space complexity.
+371,Hard,Arrays,Handle edge cases while implementing find kth largest element.
+372,Hard,Searching & Sorting,Architect a high-performance solution to find majority element.
+373,Hard,Arrays,Architect a high-performance solution to reverse an array.
+374,Medium,Searching & Sorting,Explain and implement an approach to solve the knapsack problem.
+375,Easy,Searching & Sorting,Implement generate all permutations of a string.
+376,Hard,Strings,Handle edge cases while implementing find shortest path in a graph.
+377,Hard,Graphs,Handle edge cases while implementing solve the knapsack problem.
+378,Hard,Trees,Architect a high-performance solution to detect palindrome string.
+379,Medium,Linked List,Optimize an algorithm to count inversions in an array.
+380,Medium,Searching & Sorting,Design an efficient solution to find maximum depth of a binary tree.
+381,Hard,Graphs,Solve find majority element with optimal time and space complexity.
+382,Easy,Recursion & Backtracking,Create a function to implement a stack using queues.
+383,Hard,Graphs,Design a scalable algorithm to implement a stack using queues.
+384,Medium,Trees,Implement validate parentheses with time complexity O(n log n) or better.
+385,Hard,Trees,Handle edge cases while implementing merge two sorted arrays.
+386,Medium,Greedy Algorithms,Explain and implement an approach to implement Dijkstra's algorithm.
+387,Hard,Arrays,Handle edge cases while implementing find shortest path in a graph.
+388,Medium,Recursion & Backtracking,Implement perform level order traversal of a tree with time complexity O(n log n) or better.
+389,Medium,Arrays,Implement find connected components in a graph with time complexity O(n log n) or better.
+390,Medium,Linked List,Solve detect a cycle in a linked list using appropriate data structures.
+391,Easy,Dynamic Programming,Write a program to implement LRU cache.
+392,Medium,Dynamic Programming,Design an efficient solution to implement LRU cache.
+393,Hard,Stack & Queue,Architect a high-performance solution to implement a stack using queues.
+394,Easy,Greedy Algorithms,Create a function to find connected components in a graph.
+395,Medium,Greedy Algorithms,Implement find the longest substring without repeating characters with time complexity O(n log n) or better.
+396,Hard,Recursion & Backtracking,Handle edge cases while implementing solve the knapsack problem.
+397,Medium,Graphs,Solve solve N-Queens problem using appropriate data structures.
+398,Medium,Graphs,Implement reverse an array with time complexity O(n log n) or better.
+399,Hard,Trees,Architect a high-performance solution to perform level order traversal of a tree.
+400,Hard,Recursion & Backtracking,Implement an advanced solution for solve the knapsack problem.
+401,Easy,Graphs,Write a program to search an element using binary search.
+402,Hard,Greedy Algorithms,Design a scalable algorithm to find kth largest element.
+403,Hard,Strings,Implement an advanced solution for find connected components in a graph.
+404,Easy,Trees,Solve the problem of detect palindrome string.
+405,Easy,Stack & Queue,Write a program to implement LRU cache.
+406,Hard,Searching & Sorting,Handle edge cases while implementing implement a stack using queues.
+407,Medium,Strings,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+408,Easy,Greedy Algorithms,Write a program to solve N-Queens problem.
+409,Easy,Graphs,Create a function to implement a stack using queues.
+410,Easy,Trees,Solve the problem of search an element using binary search.
+411,Hard,Greedy Algorithms,Architect a high-performance solution to find shortest path in a graph.
+412,Easy,Strings,Write a program to find shortest path in a graph.
+413,Medium,Linked List,Optimize an algorithm to implement Dijkstra's algorithm.
+414,Easy,Stack & Queue,Implement find the longest substring without repeating characters.
+415,Medium,Stack & Queue,Design an efficient solution to find kth largest element.
+416,Medium,Linked List,Design an efficient solution to implement LRU cache.
+417,Hard,Greedy Algorithms,Implement an advanced solution for find the longest substring without repeating characters.
+418,Hard,Stack & Queue,Solve find shortest path in a graph with optimal time and space complexity.
+419,Hard,Dynamic Programming,Solve implement LRU cache with optimal time and space complexity.
+420,Medium,Trees,Design an efficient solution to find shortest path in a graph.
+421,Hard,Linked List,Implement an advanced solution for find the longest substring without repeating characters.
+422,Medium,Dynamic Programming,Explain and implement an approach to count inversions in an array.
+423,Hard,Graphs,Handle edge cases while implementing implement Dijkstra's algorithm.
+424,Hard,Searching & Sorting,Handle edge cases while implementing validate parentheses.
+425,Medium,Strings,Design an efficient solution to merge two sorted arrays.
+426,Medium,Graphs,Optimize an algorithm to solve N-Queens problem.
+427,Hard,Searching & Sorting,Solve find the longest substring without repeating characters with optimal time and space complexity.
+428,Hard,Greedy Algorithms,Handle edge cases while implementing implement a stack using queues.
+429,Hard,Trees,Solve search an element using binary search with optimal time and space complexity.
+430,Hard,Trees,Handle edge cases while implementing find maximum depth of a binary tree.
+431,Easy,Linked List,Solve the problem of count inversions in an array.
+432,Easy,Recursion & Backtracking,Write a program to find maximum depth of a binary tree.
+433,Easy,Graphs,Solve the problem of detect palindrome string.
+434,Medium,Strings,Implement detect palindrome string with time complexity O(n log n) or better.
+435,Hard,Trees,Implement an advanced solution for find kth largest element.
+436,Easy,Recursion & Backtracking,Implement find majority element.
+437,Hard,Arrays,Solve generate all permutations of a string with optimal time and space complexity.
+438,Easy,Trees,Find implement Dijkstra's algorithm.
+439,Easy,Stack & Queue,Implement find kth largest element.
+440,Hard,Trees,Implement an advanced solution for find majority element.
+441,Easy,Dynamic Programming,Solve the problem of perform level order traversal of a tree.
+442,Hard,Linked List,Design a scalable algorithm to detect palindrome string.
+443,Medium,Dynamic Programming,Optimize an algorithm to find shortest path in a graph.
+444,Easy,Dynamic Programming,Find find the longest substring without repeating characters.
+445,Medium,Recursion & Backtracking,Explain and implement an approach to find shortest path in a graph.
+446,Medium,Searching & Sorting,Explain and implement an approach to find connected components in a graph.
+447,Easy,Greedy Algorithms,Create a function to find majority element.
+448,Hard,Arrays,Architect a high-performance solution to reverse an array.
+449,Easy,Greedy Algorithms,Create a function to validate parentheses.
+450,Easy,Arrays,Write a program to generate all permutations of a string.
+451,Easy,Arrays,Write a program to search an element using binary search.
+452,Medium,Trees,Design an efficient solution to find the longest substring without repeating characters.
+453,Medium,Dynamic Programming,Design an efficient solution to implement a stack using queues.
+454,Hard,Recursion & Backtracking,Handle edge cases while implementing find maximum depth of a binary tree.
+455,Hard,Graphs,Design a scalable algorithm to count inversions in an array.
+456,Medium,Stack & Queue,Optimize an algorithm to implement Dijkstra's algorithm.
+457,Medium,Arrays,Explain and implement an approach to detect a cycle in a linked list.
+458,Medium,Recursion & Backtracking,Solve detect a cycle in a linked list using appropriate data structures.
+459,Easy,Graphs,Write a program to find the longest substring without repeating characters.
+460,Easy,Searching & Sorting,Create a function to find the longest substring without repeating characters.
+461,Hard,Greedy Algorithms,Architect a high-performance solution to find shortest path in a graph.
+462,Medium,Dynamic Programming,Design an efficient solution to solve the knapsack problem.
+463,Easy,Trees,Create a function to count inversions in an array.
+464,Easy,Trees,Solve the problem of find maximum depth of a binary tree.
+465,Medium,Greedy Algorithms,Solve search an element using binary search using appropriate data structures.
+466,Medium,Trees,Explain and implement an approach to detect palindrome string.
+467,Hard,Greedy Algorithms,Design a scalable algorithm to implement LRU cache.
+468,Easy,Greedy Algorithms,Solve the problem of find majority element.
+469,Medium,Strings,Solve find the longest substring without repeating characters using appropriate data structures.
+470,Easy,Greedy Algorithms,Solve the problem of detect palindrome string.
+471,Medium,Trees,Solve solve the knapsack problem using appropriate data structures.
+472,Medium,Dynamic Programming,Explain and implement an approach to search an element using binary search.
+473,Hard,Stack & Queue,Design a scalable algorithm to detect palindrome string.
+474,Hard,Stack & Queue,Architect a high-performance solution to generate all permutations of a string.
+475,Medium,Searching & Sorting,Explain and implement an approach to find maximum depth of a binary tree.
+476,Hard,Greedy Algorithms,Implement an advanced solution for find maximum depth of a binary tree.
+477,Easy,Greedy Algorithms,Find count inversions in an array.
+478,Easy,Linked List,Find find majority element.
+479,Medium,Dynamic Programming,Explain and implement an approach to reverse an array.
+480,Hard,Dynamic Programming,Design a scalable algorithm to implement Dijkstra's algorithm.
+481,Medium,Strings,Implement count inversions in an array with time complexity O(n log n) or better.
+482,Easy,Dynamic Programming,Implement reverse an array.
+483,Medium,Searching & Sorting,Design an efficient solution to implement a stack using queues.
+484,Easy,Arrays,Create a function to generate all permutations of a string.
+485,Hard,Graphs,Architect a high-performance solution to find connected components in a graph.
+486,Hard,Trees,Solve solve the knapsack problem with optimal time and space complexity.
+487,Easy,Greedy Algorithms,Write a program to validate parentheses.
+488,Hard,Greedy Algorithms,Implement an advanced solution for solve N-Queens problem.
+489,Medium,Linked List,Design an efficient solution to solve the knapsack problem.
+490,Hard,Strings,Design a scalable algorithm to solve N-Queens problem.
+491,Hard,Dynamic Programming,Implement an advanced solution for find connected components in a graph.
+492,Easy,Recursion & Backtracking,Solve the problem of solve the knapsack problem.
+493,Easy,Linked List,Implement implement LRU cache.
+494,Medium,Arrays,Implement solve the knapsack problem with time complexity O(n log n) or better.
+495,Medium,Recursion & Backtracking,Optimize an algorithm to generate all permutations of a string.
+496,Hard,Trees,Handle edge cases while implementing implement LRU cache.
+497,Easy,Trees,Write a program to solve the knapsack problem.
+498,Medium,Stack & Queue,Explain and implement an approach to perform level order traversal of a tree.
+499,Easy,Arrays,Write a program to validate parentheses.
+500,Medium,Trees,Implement find connected components in a graph with time complexity O(n log n) or better.
+501,Easy,Linked List,Implement find the longest substring without repeating characters.
+502,Medium,Trees,Optimize an algorithm to perform level order traversal of a tree.
+503,Medium,Trees,Optimize an algorithm to merge two sorted arrays.
+504,Medium,Recursion & Backtracking,Explain and implement an approach to search an element using binary search.
+505,Easy,Graphs,Find detect palindrome string.
+506,Medium,Searching & Sorting,Implement merge two sorted arrays with time complexity O(n log n) or better.
+507,Medium,Greedy Algorithms,Solve search an element using binary search using appropriate data structures.
+508,Hard,Arrays,Implement an advanced solution for implement LRU cache.
+509,Easy,Searching & Sorting,Solve the problem of implement LRU cache.
+510,Easy,Graphs,Solve the problem of implement Dijkstra's algorithm.
+511,Hard,Linked List,Implement an advanced solution for count inversions in an array.
+512,Hard,Greedy Algorithms,Design a scalable algorithm to implement a stack using queues.
+513,Medium,Recursion & Backtracking,Solve generate all permutations of a string using appropriate data structures.
+514,Medium,Dynamic Programming,Solve find the longest substring without repeating characters using appropriate data structures.
+515,Easy,Linked List,Find implement LRU cache.
+516,Hard,Greedy Algorithms,Solve find maximum depth of a binary tree with optimal time and space complexity.
+517,Medium,Trees,Optimize an algorithm to generate all permutations of a string.
+518,Medium,Arrays,Optimize an algorithm to implement LRU cache.
+519,Easy,Trees,Find generate all permutations of a string.
+520,Hard,Dynamic Programming,Design a scalable algorithm to implement a stack using queues.
+521,Medium,Recursion & Backtracking,Implement merge two sorted arrays with time complexity O(n log n) or better.
+522,Easy,Searching & Sorting,Solve the problem of solve N-Queens problem.
+523,Hard,Trees,Architect a high-performance solution to search an element using binary search.
+524,Medium,Linked List,Optimize an algorithm to detect a cycle in a linked list.
+525,Easy,Trees,Solve the problem of solve N-Queens problem.
+526,Medium,Searching & Sorting,Design an efficient solution to validate parentheses.
+527,Medium,Stack & Queue,Explain and implement an approach to detect a cycle in a linked list.
+528,Easy,Greedy Algorithms,Implement implement LRU cache.
+529,Medium,Greedy Algorithms,Solve generate all permutations of a string using appropriate data structures.
+530,Easy,Recursion & Backtracking,Write a program to search an element using binary search.
+531,Medium,Linked List,Implement detect a cycle in a linked list with time complexity O(n log n) or better.
+532,Hard,Trees,Implement an advanced solution for count inversions in an array.
+533,Hard,Strings,Solve find shortest path in a graph with optimal time and space complexity.
+534,Easy,Greedy Algorithms,Create a function to implement LRU cache.
+535,Medium,Linked List,Optimize an algorithm to find connected components in a graph.
+536,Medium,Stack & Queue,Design an efficient solution to solve the knapsack problem.
+537,Medium,Recursion & Backtracking,Explain and implement an approach to find the longest substring without repeating characters.
+538,Hard,Graphs,Implement an advanced solution for find the longest substring without repeating characters.
+539,Medium,Greedy Algorithms,Optimize an algorithm to count inversions in an array.
+540,Medium,Graphs,Design an efficient solution to count inversions in an array.
+541,Medium,Recursion & Backtracking,Design an efficient solution to find the longest substring without repeating characters.
+542,Medium,Recursion & Backtracking,Explain and implement an approach to find maximum depth of a binary tree.
+543,Medium,Recursion & Backtracking,Implement solve N-Queens problem with time complexity O(n log n) or better.
+544,Hard,Dynamic Programming,Architect a high-performance solution to find majority element.
+545,Hard,Stack & Queue,Solve implement Dijkstra's algorithm with optimal time and space complexity.
+546,Easy,Linked List,Find find connected components in a graph.
+547,Medium,Trees,Solve detect a cycle in a linked list using appropriate data structures.
+548,Hard,Greedy Algorithms,Handle edge cases while implementing implement Dijkstra's algorithm.
+549,Easy,Dynamic Programming,Implement detect a cycle in a linked list.
+550,Hard,Trees,Architect a high-performance solution to implement LRU cache.
+551,Hard,Greedy Algorithms,Design a scalable algorithm to find kth largest element.
+552,Easy,Greedy Algorithms,Create a function to find connected components in a graph.
+553,Medium,Linked List,Optimize an algorithm to perform level order traversal of a tree.
+554,Medium,Trees,Solve validate parentheses using appropriate data structures.
+555,Hard,Dynamic Programming,Handle edge cases while implementing solve N-Queens problem.
+556,Medium,Dynamic Programming,Design an efficient solution to find kth largest element.
+557,Medium,Stack & Queue,Design an efficient solution to find shortest path in a graph.
+558,Medium,Linked List,Optimize an algorithm to find kth largest element.
+559,Hard,Arrays,Solve perform level order traversal of a tree with optimal time and space complexity.
+560,Hard,Graphs,Solve validate parentheses with optimal time and space complexity.
+561,Easy,Graphs,Solve the problem of merge two sorted arrays.
+562,Hard,Strings,Architect a high-performance solution to count inversions in an array.
+563,Medium,Searching & Sorting,Implement perform level order traversal of a tree with time complexity O(n log n) or better.
+564,Hard,Searching & Sorting,Solve count inversions in an array with optimal time and space complexity.
+565,Medium,Stack & Queue,Implement perform level order traversal of a tree with time complexity O(n log n) or better.
+566,Easy,Trees,Create a function to find kth largest element.
+567,Medium,Strings,Design an efficient solution to perform level order traversal of a tree.
+568,Medium,Graphs,Design an efficient solution to find majority element.
+569,Medium,Dynamic Programming,Solve solve N-Queens problem using appropriate data structures.
+570,Easy,Strings,Implement detect a cycle in a linked list.
+571,Easy,Searching & Sorting,Implement implement LRU cache.
+572,Hard,Dynamic Programming,Architect a high-performance solution to solve the knapsack problem.
+573,Easy,Stack & Queue,Solve the problem of solve N-Queens problem.
+574,Medium,Arrays,Design an efficient solution to find kth largest element.
+575,Easy,Dynamic Programming,Implement find shortest path in a graph.
+576,Hard,Recursion & Backtracking,Handle edge cases while implementing perform level order traversal of a tree.
+577,Easy,Trees,Create a function to implement a stack using queues.
+578,Hard,Graphs,Solve count inversions in an array with optimal time and space complexity.
+579,Hard,Greedy Algorithms,Solve count inversions in an array with optimal time and space complexity.
+580,Easy,Trees,Solve the problem of find kth largest element.
+581,Medium,Dynamic Programming,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+582,Easy,Graphs,Implement find connected components in a graph.
+583,Hard,Searching & Sorting,Handle edge cases while implementing find majority element.
+584,Medium,Strings,Explain and implement an approach to count inversions in an array.
+585,Easy,Trees,Find solve N-Queens problem.
+586,Hard,Greedy Algorithms,Implement an advanced solution for search an element using binary search.
+587,Easy,Trees,Write a program to count inversions in an array.
+588,Easy,Strings,Find reverse an array.
+589,Easy,Strings,Create a function to detect a cycle in a linked list.
+590,Medium,Linked List,Implement count inversions in an array with time complexity O(n log n) or better.
+591,Easy,Greedy Algorithms,Find find the longest substring without repeating characters.
+592,Hard,Searching & Sorting,Architect a high-performance solution to merge two sorted arrays.
+593,Medium,Dynamic Programming,Optimize an algorithm to reverse an array.
+594,Hard,Arrays,Solve find maximum depth of a binary tree with optimal time and space complexity.
+595,Hard,Greedy Algorithms,Implement an advanced solution for generate all permutations of a string.
+596,Easy,Arrays,Write a program to reverse an array.
+597,Hard,Strings,Design a scalable algorithm to search an element using binary search.
+598,Hard,Greedy Algorithms,Design a scalable algorithm to reverse an array.
+599,Easy,Stack & Queue,Create a function to merge two sorted arrays.
+600,Hard,Strings,Implement an advanced solution for find kth largest element.
+601,Easy,Strings,Solve the problem of detect palindrome string.
+602,Easy,Strings,Write a program to detect a cycle in a linked list.
+603,Medium,Greedy Algorithms,Solve perform level order traversal of a tree using appropriate data structures.
+604,Medium,Dynamic Programming,Optimize an algorithm to find kth largest element.
+605,Hard,Strings,Solve find the longest substring without repeating characters with optimal time and space complexity.
+606,Hard,Strings,Implement an advanced solution for generate all permutations of a string.
+607,Easy,Stack & Queue,Create a function to generate all permutations of a string.
+608,Hard,Stack & Queue,Design a scalable algorithm to implement Dijkstra's algorithm.
+609,Medium,Greedy Algorithms,Design an efficient solution to reverse an array.
+610,Medium,Trees,Design an efficient solution to implement Dijkstra's algorithm.
+611,Easy,Greedy Algorithms,Implement search an element using binary search.
+612,Medium,Dynamic Programming,Solve validate parentheses using appropriate data structures.
+613,Easy,Trees,Write a program to merge two sorted arrays.
+614,Medium,Greedy Algorithms,Design an efficient solution to generate all permutations of a string.
+615,Easy,Dynamic Programming,Implement find majority element.
+616,Easy,Trees,Find find connected components in a graph.
+617,Hard,Arrays,Design a scalable algorithm to generate all permutations of a string.
+618,Medium,Linked List,Explain and implement an approach to generate all permutations of a string.
+619,Medium,Graphs,Explain and implement an approach to generate all permutations of a string.
+620,Medium,Arrays,Solve find connected components in a graph using appropriate data structures.
+621,Easy,Recursion & Backtracking,Solve the problem of detect palindrome string.
+622,Medium,Searching & Sorting,Design an efficient solution to validate parentheses.
+623,Easy,Arrays,Implement search an element using binary search.
+624,Easy,Dynamic Programming,Write a program to solve the knapsack problem.
+625,Medium,Searching & Sorting,Design an efficient solution to reverse an array.
+626,Medium,Graphs,Design an efficient solution to detect palindrome string.
+627,Hard,Trees,Implement an advanced solution for search an element using binary search.
+628,Hard,Arrays,Solve find the longest substring without repeating characters with optimal time and space complexity.
+629,Medium,Strings,Design an efficient solution to implement Dijkstra's algorithm.
+630,Easy,Stack & Queue,Implement find kth largest element.
+631,Medium,Stack & Queue,Solve find connected components in a graph using appropriate data structures.
+632,Medium,Greedy Algorithms,Implement perform level order traversal of a tree with time complexity O(n log n) or better.
+633,Easy,Graphs,Solve the problem of find majority element.
+634,Medium,Arrays,Optimize an algorithm to implement a stack using queues.
+635,Medium,Linked List,Implement find majority element with time complexity O(n log n) or better.
+636,Hard,Trees,Implement an advanced solution for merge two sorted arrays.
+637,Hard,Arrays,Implement an advanced solution for merge two sorted arrays.
+638,Easy,Linked List,Write a program to solve the knapsack problem.
+639,Medium,Strings,Design an efficient solution to find kth largest element.
+640,Easy,Stack & Queue,Solve the problem of implement a stack using queues.
+641,Hard,Stack & Queue,Architect a high-performance solution to find connected components in a graph.
+642,Hard,Graphs,Solve solve N-Queens problem with optimal time and space complexity.
+643,Hard,Recursion & Backtracking,Handle edge cases while implementing validate parentheses.
+644,Hard,Strings,Architect a high-performance solution to perform level order traversal of a tree.
+645,Hard,Trees,Architect a high-performance solution to count inversions in an array.
+646,Hard,Stack & Queue,Solve generate all permutations of a string with optimal time and space complexity.
+647,Hard,Searching & Sorting,Solve find kth largest element with optimal time and space complexity.
+648,Hard,Strings,Handle edge cases while implementing find majority element.
+649,Hard,Searching & Sorting,Implement an advanced solution for find the longest substring without repeating characters.
+650,Medium,Strings,Implement find kth largest element with time complexity O(n log n) or better.
+651,Hard,Strings,Handle edge cases while implementing merge two sorted arrays.
+652,Hard,Linked List,Solve find the longest substring without repeating characters with optimal time and space complexity.
+653,Medium,Trees,Design an efficient solution to find maximum depth of a binary tree.
+654,Hard,Strings,Implement an advanced solution for find the longest substring without repeating characters.
+655,Medium,Searching & Sorting,Solve implement LRU cache using appropriate data structures.
+656,Easy,Recursion & Backtracking,Find implement Dijkstra's algorithm.
+657,Medium,Stack & Queue,Explain and implement an approach to generate all permutations of a string.
+658,Easy,Graphs,Create a function to count inversions in an array.
+659,Easy,Dynamic Programming,Implement detect palindrome string.
+660,Medium,Trees,Explain and implement an approach to find connected components in a graph.
+661,Medium,Strings,Explain and implement an approach to solve the knapsack problem.
+662,Hard,Stack & Queue,Implement an advanced solution for solve the knapsack problem.
+663,Hard,Searching & Sorting,Architect a high-performance solution to find connected components in a graph.
+664,Medium,Graphs,Optimize an algorithm to solve N-Queens problem.
+665,Hard,Strings,Handle edge cases while implementing find maximum depth of a binary tree.
+666,Hard,Strings,Implement an advanced solution for find kth largest element.
+667,Medium,Arrays,Implement detect palindrome string with time complexity O(n log n) or better.
+668,Hard,Dynamic Programming,Architect a high-performance solution to reverse an array.
+669,Hard,Arrays,Implement an advanced solution for count inversions in an array.
+670,Medium,Stack & Queue,Optimize an algorithm to find the longest substring without repeating characters.
+671,Medium,Arrays,Implement search an element using binary search with time complexity O(n log n) or better.
+672,Hard,Searching & Sorting,Handle edge cases while implementing search an element using binary search.
+673,Hard,Linked List,Architect a high-performance solution to validate parentheses.
+674,Hard,Strings,Architect a high-performance solution to find majority element.
+675,Medium,Searching & Sorting,Optimize an algorithm to detect palindrome string.
+676,Easy,Linked List,Find implement a stack using queues.
+677,Easy,Trees,Find search an element using binary search.
+678,Hard,Trees,Handle edge cases while implementing detect a cycle in a linked list.
+679,Easy,Searching & Sorting,Implement reverse an array.
+680,Easy,Linked List,Implement find connected components in a graph.
+681,Hard,Recursion & Backtracking,Design a scalable algorithm to find kth largest element.
+682,Medium,Dynamic Programming,Optimize an algorithm to implement LRU cache.
+683,Easy,Recursion & Backtracking,Find find shortest path in a graph.
+684,Easy,Graphs,Write a program to search an element using binary search.
+685,Easy,Arrays,Implement implement LRU cache.
+686,Easy,Recursion & Backtracking,Find implement a stack using queues.
+687,Hard,Arrays,Implement an advanced solution for find the longest substring without repeating characters.
+688,Easy,Greedy Algorithms,Create a function to reverse an array.
+689,Medium,Dynamic Programming,Explain and implement an approach to find shortest path in a graph.
+690,Medium,Trees,Optimize an algorithm to generate all permutations of a string.
+691,Medium,Dynamic Programming,Explain and implement an approach to search an element using binary search.
+692,Hard,Searching & Sorting,Solve generate all permutations of a string with optimal time and space complexity.
+693,Medium,Stack & Queue,Explain and implement an approach to find majority element.
+694,Medium,Strings,Optimize an algorithm to implement LRU cache.
+695,Easy,Graphs,Create a function to solve the knapsack problem.
+696,Easy,Graphs,Find find majority element.
+697,Hard,Strings,Handle edge cases while implementing implement Dijkstra's algorithm.
+698,Medium,Searching & Sorting,Explain and implement an approach to reverse an array.
+699,Easy,Strings,Write a program to solve the knapsack problem.
+700,Medium,Linked List,Optimize an algorithm to find maximum depth of a binary tree.
+701,Medium,Linked List,Solve solve N-Queens problem using appropriate data structures.
+702,Easy,Trees,Write a program to validate parentheses.
+703,Medium,Stack & Queue,Design an efficient solution to detect palindrome string.
+704,Easy,Dynamic Programming,Solve the problem of generate all permutations of a string.
+705,Hard,Graphs,Architect a high-performance solution to find the longest substring without repeating characters.
+706,Easy,Graphs,Solve the problem of find connected components in a graph.
+707,Medium,Recursion & Backtracking,Solve find connected components in a graph using appropriate data structures.
+708,Hard,Dynamic Programming,Implement an advanced solution for generate all permutations of a string.
+709,Hard,Strings,Handle edge cases while implementing find maximum depth of a binary tree.
+710,Medium,Searching & Sorting,Solve implement Dijkstra's algorithm using appropriate data structures.
+711,Easy,Arrays,Write a program to find shortest path in a graph.
+712,Medium,Searching & Sorting,Design an efficient solution to find the longest substring without repeating characters.
+713,Hard,Dynamic Programming,Implement an advanced solution for reverse an array.
+714,Medium,Linked List,Explain and implement an approach to implement Dijkstra's algorithm.
+715,Easy,Linked List,Write a program to validate parentheses.
+716,Hard,Dynamic Programming,Design a scalable algorithm to generate all permutations of a string.
+717,Hard,Stack & Queue,Design a scalable algorithm to solve the knapsack problem.
+718,Easy,Arrays,Create a function to detect a cycle in a linked list.
+719,Hard,Recursion & Backtracking,Implement an advanced solution for find majority element.
+720,Hard,Strings,Solve find the longest substring without repeating characters with optimal time and space complexity.
+721,Hard,Greedy Algorithms,Handle edge cases while implementing perform level order traversal of a tree.
+722,Easy,Arrays,Solve the problem of implement LRU cache.
+723,Medium,Trees,Solve implement a stack using queues using appropriate data structures.
+724,Easy,Arrays,Solve the problem of find majority element.
+725,Hard,Trees,Handle edge cases while implementing solve the knapsack problem.
+726,Easy,Stack & Queue,Solve the problem of find shortest path in a graph.
+727,Easy,Stack & Queue,Solve the problem of reverse an array.
+728,Medium,Recursion & Backtracking,Explain and implement an approach to validate parentheses.
+729,Hard,Greedy Algorithms,Design a scalable algorithm to implement Dijkstra's algorithm.
+730,Medium,Dynamic Programming,Design an efficient solution to solve N-Queens problem.
+731,Easy,Dynamic Programming,Find find the longest substring without repeating characters.
+732,Hard,Recursion & Backtracking,Architect a high-performance solution to reverse an array.
+733,Medium,Strings,Optimize an algorithm to validate parentheses.
+734,Easy,Graphs,Write a program to find connected components in a graph.
+735,Easy,Strings,Solve the problem of merge two sorted arrays.
+736,Hard,Searching & Sorting,Solve find majority element with optimal time and space complexity.
+737,Medium,Searching & Sorting,Implement generate all permutations of a string with time complexity O(n log n) or better.
+738,Hard,Recursion & Backtracking,Solve find shortest path in a graph with optimal time and space complexity.
+739,Medium,Graphs,Design an efficient solution to find kth largest element.
+740,Hard,Greedy Algorithms,Solve find maximum depth of a binary tree with optimal time and space complexity.
+741,Medium,Strings,Solve solve N-Queens problem using appropriate data structures.
+742,Easy,Arrays,Create a function to find shortest path in a graph.
+743,Hard,Dynamic Programming,Implement an advanced solution for find kth largest element.
+744,Medium,Arrays,Implement implement a stack using queues with time complexity O(n log n) or better.
+745,Medium,Arrays,Implement validate parentheses with time complexity O(n log n) or better.
+746,Easy,Graphs,Find implement a stack using queues.
+747,Easy,Linked List,Implement solve N-Queens problem.
+748,Hard,Linked List,Implement an advanced solution for generate all permutations of a string.
+749,Medium,Strings,Optimize an algorithm to generate all permutations of a string.
+750,Medium,Dynamic Programming,Implement find majority element with time complexity O(n log n) or better.
+751,Hard,Recursion & Backtracking,Architect a high-performance solution to perform level order traversal of a tree.
+752,Hard,Trees,Implement an advanced solution for reverse an array.
+753,Medium,Graphs,Optimize an algorithm to find the longest substring without repeating characters.
+754,Medium,Linked List,Design an efficient solution to merge two sorted arrays.
+755,Hard,Linked List,Implement an advanced solution for reverse an array.
+756,Easy,Greedy Algorithms,Write a program to find connected components in a graph.
+757,Easy,Linked List,Implement generate all permutations of a string.
+758,Easy,Arrays,Solve the problem of find maximum depth of a binary tree.
+759,Hard,Strings,Architect a high-performance solution to find majority element.
+760,Hard,Graphs,Handle edge cases while implementing implement a stack using queues.
+761,Hard,Trees,Solve reverse an array with optimal time and space complexity.
+762,Easy,Dynamic Programming,Implement find kth largest element.
+763,Hard,Graphs,Design a scalable algorithm to generate all permutations of a string.
+764,Hard,Graphs,Handle edge cases while implementing reverse an array.
+765,Hard,Linked List,Solve implement a stack using queues with optimal time and space complexity.
+766,Medium,Greedy Algorithms,Solve search an element using binary search using appropriate data structures.
+767,Easy,Searching & Sorting,Implement solve N-Queens problem.
+768,Medium,Recursion & Backtracking,Optimize an algorithm to find majority element.
+769,Medium,Searching & Sorting,Optimize an algorithm to generate all permutations of a string.
+770,Easy,Linked List,Write a program to implement LRU cache.
+771,Medium,Strings,Solve implement Dijkstra's algorithm using appropriate data structures.
+772,Medium,Recursion & Backtracking,Explain and implement an approach to find the longest substring without repeating characters.
+773,Hard,Arrays,Handle edge cases while implementing count inversions in an array.
+774,Easy,Strings,Write a program to perform level order traversal of a tree.
+775,Easy,Stack & Queue,Create a function to find shortest path in a graph.
+776,Medium,Linked List,Solve find kth largest element using appropriate data structures.
+777,Easy,Greedy Algorithms,Create a function to count inversions in an array.
+778,Medium,Stack & Queue,Explain and implement an approach to count inversions in an array.
+779,Medium,Linked List,Explain and implement an approach to implement a stack using queues.
+780,Medium,Graphs,Optimize an algorithm to implement a stack using queues.
+781,Easy,Graphs,Implement find shortest path in a graph.
+782,Medium,Graphs,Solve find shortest path in a graph using appropriate data structures.
+783,Medium,Graphs,Explain and implement an approach to solve N-Queens problem.
+784,Medium,Recursion & Backtracking,Implement detect a cycle in a linked list with time complexity O(n log n) or better.
+785,Medium,Graphs,Solve validate parentheses using appropriate data structures.
+786,Medium,Dynamic Programming,Solve find connected components in a graph using appropriate data structures.
+787,Medium,Graphs,Design an efficient solution to solve the knapsack problem.
+788,Easy,Graphs,Create a function to find majority element.
+789,Easy,Arrays,Implement implement Dijkstra's algorithm.
+790,Hard,Stack & Queue,Handle edge cases while implementing generate all permutations of a string.
+791,Medium,Trees,Explain and implement an approach to merge two sorted arrays.
+792,Easy,Recursion & Backtracking,Write a program to find maximum depth of a binary tree.
+793,Easy,Dynamic Programming,Find find majority element.
+794,Easy,Stack & Queue,Write a program to implement Dijkstra's algorithm.
+795,Medium,Searching & Sorting,Explain and implement an approach to reverse an array.
+796,Medium,Dynamic Programming,Design an efficient solution to generate all permutations of a string.
+797,Easy,Greedy Algorithms,Solve the problem of count inversions in an array.
+798,Hard,Dynamic Programming,Handle edge cases while implementing find connected components in a graph.
+799,Medium,Greedy Algorithms,Explain and implement an approach to generate all permutations of a string.
+800,Hard,Trees,Implement an advanced solution for implement a stack using queues.
+801,Hard,Strings,Architect a high-performance solution to detect palindrome string.
+802,Hard,Greedy Algorithms,Implement an advanced solution for generate all permutations of a string.
+803,Easy,Graphs,Find validate parentheses.
+804,Hard,Recursion & Backtracking,Solve find shortest path in a graph with optimal time and space complexity.
+805,Medium,Recursion & Backtracking,Optimize an algorithm to find shortest path in a graph.
+806,Hard,Recursion & Backtracking,Architect a high-performance solution to detect palindrome string.
+807,Medium,Recursion & Backtracking,Design an efficient solution to search an element using binary search.
+808,Easy,Trees,Find find majority element.
+809,Hard,Searching & Sorting,Solve perform level order traversal of a tree with optimal time and space complexity.
+810,Medium,Trees,Design an efficient solution to implement LRU cache.
+811,Easy,Stack & Queue,Create a function to reverse an array.
+812,Easy,Strings,Create a function to merge two sorted arrays.
+813,Medium,Dynamic Programming,Design an efficient solution to implement Dijkstra's algorithm.
+814,Easy,Dynamic Programming,Write a program to count inversions in an array.
+815,Hard,Greedy Algorithms,Implement an advanced solution for count inversions in an array.
+816,Hard,Graphs,Implement an advanced solution for find majority element.
+817,Easy,Linked List,Create a function to detect a cycle in a linked list.
+818,Easy,Stack & Queue,Create a function to search an element using binary search.
+819,Easy,Linked List,Write a program to solve the knapsack problem.
+820,Easy,Strings,Write a program to merge two sorted arrays.
+821,Hard,Linked List,Design a scalable algorithm to find the longest substring without repeating characters.
+822,Medium,Dynamic Programming,Optimize an algorithm to count inversions in an array.
+823,Hard,Trees,Architect a high-performance solution to find kth largest element.
+824,Easy,Trees,Implement search an element using binary search.
+825,Medium,Arrays,Explain and implement an approach to generate all permutations of a string.
+826,Medium,Recursion & Backtracking,Solve generate all permutations of a string using appropriate data structures.
+827,Easy,Dynamic Programming,Find find the longest substring without repeating characters.
+828,Hard,Stack & Queue,Handle edge cases while implementing perform level order traversal of a tree.
+829,Medium,Trees,Solve validate parentheses using appropriate data structures.
+830,Medium,Graphs,Design an efficient solution to validate parentheses.
+831,Easy,Graphs,Find implement LRU cache.
+832,Medium,Searching & Sorting,Implement find shortest path in a graph with time complexity O(n log n) or better.
+833,Medium,Dynamic Programming,Solve find maximum depth of a binary tree using appropriate data structures.
+834,Easy,Arrays,Implement find the longest substring without repeating characters.
+835,Easy,Graphs,Create a function to generate all permutations of a string.
+836,Easy,Recursion & Backtracking,Write a program to perform level order traversal of a tree.
+837,Medium,Stack & Queue,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+838,Easy,Stack & Queue,Write a program to generate all permutations of a string.
+839,Easy,Linked List,Write a program to find shortest path in a graph.
+840,Hard,Trees,Solve find kth largest element with optimal time and space complexity.
+841,Easy,Trees,Write a program to count inversions in an array.
+842,Medium,Greedy Algorithms,Implement find shortest path in a graph with time complexity O(n log n) or better.
+843,Hard,Arrays,Design a scalable algorithm to solve the knapsack problem.
+844,Medium,Stack & Queue,Solve solve the knapsack problem using appropriate data structures.
+845,Medium,Searching & Sorting,Implement count inversions in an array with time complexity O(n log n) or better.
+846,Medium,Recursion & Backtracking,Optimize an algorithm to solve the knapsack problem.
+847,Medium,Dynamic Programming,Optimize an algorithm to find kth largest element.
+848,Hard,Trees,Architect a high-performance solution to validate parentheses.
+849,Medium,Recursion & Backtracking,Explain and implement an approach to find shortest path in a graph.
+850,Medium,Linked List,Implement implement a stack using queues with time complexity O(n log n) or better.
+851,Easy,Strings,Implement generate all permutations of a string.
+852,Easy,Strings,Find detect a cycle in a linked list.
+853,Hard,Linked List,Architect a high-performance solution to find kth largest element.
+854,Medium,Searching & Sorting,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+855,Easy,Arrays,Create a function to generate all permutations of a string.
+856,Medium,Graphs,Explain and implement an approach to find majority element.
+857,Easy,Dynamic Programming,Solve the problem of implement Dijkstra's algorithm.
+858,Easy,Trees,Solve the problem of find maximum depth of a binary tree.
+859,Hard,Searching & Sorting,Handle edge cases while implementing find the longest substring without repeating characters.
+860,Hard,Stack & Queue,Implement an advanced solution for find kth largest element.
+861,Medium,Stack & Queue,Optimize an algorithm to implement a stack using queues.
+862,Medium,Greedy Algorithms,Solve implement a stack using queues using appropriate data structures.
+863,Easy,Stack & Queue,Create a function to generate all permutations of a string.
+864,Medium,Strings,Design an efficient solution to implement LRU cache.
+865,Hard,Recursion & Backtracking,Architect a high-performance solution to generate all permutations of a string.
+866,Medium,Searching & Sorting,Optimize an algorithm to reverse an array.
+867,Easy,Greedy Algorithms,Create a function to search an element using binary search.
+868,Medium,Arrays,Implement search an element using binary search with time complexity O(n log n) or better.
+869,Medium,Graphs,Implement solve N-Queens problem with time complexity O(n log n) or better.
+870,Medium,Graphs,Implement find maximum depth of a binary tree with time complexity O(n log n) or better.
+871,Hard,Searching & Sorting,Implement an advanced solution for generate all permutations of a string.
+872,Medium,Stack & Queue,Explain and implement an approach to find majority element.
+873,Medium,Trees,Explain and implement an approach to generate all permutations of a string.
+874,Hard,Stack & Queue,Implement an advanced solution for implement Dijkstra's algorithm.
+875,Easy,Arrays,Write a program to generate all permutations of a string.
+876,Easy,Linked List,Write a program to count inversions in an array.
+877,Hard,Strings,Architect a high-performance solution to validate parentheses.
+878,Medium,Greedy Algorithms,Solve find majority element using appropriate data structures.
+879,Easy,Arrays,Write a program to reverse an array.
+880,Medium,Searching & Sorting,Solve find the longest substring without repeating characters using appropriate data structures.
+881,Hard,Recursion & Backtracking,Implement an advanced solution for perform level order traversal of a tree.
+882,Hard,Recursion & Backtracking,Handle edge cases while implementing search an element using binary search.
+883,Medium,Greedy Algorithms,Implement generate all permutations of a string with time complexity O(n log n) or better.
+884,Hard,Graphs,Handle edge cases while implementing generate all permutations of a string.
+885,Hard,Recursion & Backtracking,Solve solve N-Queens problem with optimal time and space complexity.
+886,Easy,Greedy Algorithms,Implement implement a stack using queues.
+887,Hard,Stack & Queue,Architect a high-performance solution to merge two sorted arrays.
+888,Hard,Recursion & Backtracking,Design a scalable algorithm to reverse an array.
+889,Hard,Dynamic Programming,Handle edge cases while implementing implement Dijkstra's algorithm.
+890,Easy,Recursion & Backtracking,Find solve N-Queens problem.
+891,Medium,Dynamic Programming,Design an efficient solution to find majority element.
+892,Easy,Stack & Queue,Find count inversions in an array.
+893,Hard,Graphs,Solve find shortest path in a graph with optimal time and space complexity.
+894,Medium,Dynamic Programming,Solve detect a cycle in a linked list using appropriate data structures.
+895,Medium,Greedy Algorithms,Optimize an algorithm to perform level order traversal of a tree.
+896,Hard,Strings,Solve solve N-Queens problem with optimal time and space complexity.
+897,Medium,Arrays,Solve reverse an array using appropriate data structures.
+898,Medium,Greedy Algorithms,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+899,Easy,Arrays,Implement find majority element.
+900,Hard,Stack & Queue,Design a scalable algorithm to implement a stack using queues.
+901,Medium,Strings,Solve implement LRU cache using appropriate data structures.
+902,Medium,Searching & Sorting,Design an efficient solution to generate all permutations of a string.
+903,Hard,Stack & Queue,Implement an advanced solution for validate parentheses.
+904,Medium,Arrays,Implement search an element using binary search with time complexity O(n log n) or better.
+905,Hard,Recursion & Backtracking,Implement an advanced solution for detect palindrome string.
+906,Medium,Linked List,Implement generate all permutations of a string with time complexity O(n log n) or better.
+907,Medium,Recursion & Backtracking,Explain and implement an approach to generate all permutations of a string.
+908,Easy,Searching & Sorting,Write a program to find maximum depth of a binary tree.
+909,Easy,Trees,Implement search an element using binary search.
+910,Medium,Strings,Design an efficient solution to implement LRU cache.
+911,Medium,Trees,Implement search an element using binary search with time complexity O(n log n) or better.
+912,Medium,Strings,Solve solve the knapsack problem using appropriate data structures.
+913,Hard,Strings,Handle edge cases while implementing find connected components in a graph.
+914,Easy,Stack & Queue,Solve the problem of merge two sorted arrays.
+915,Medium,Stack & Queue,Design an efficient solution to validate parentheses.
+916,Easy,Dynamic Programming,Create a function to implement Dijkstra's algorithm.
+917,Hard,Stack & Queue,Design a scalable algorithm to find the longest substring without repeating characters.
+918,Hard,Arrays,Architect a high-performance solution to find the longest substring without repeating characters.
+919,Medium,Searching & Sorting,Optimize an algorithm to find shortest path in a graph.
+920,Medium,Linked List,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+921,Easy,Strings,Solve the problem of implement a stack using queues.
+922,Easy,Recursion & Backtracking,Create a function to solve N-Queens problem.
+923,Hard,Graphs,Handle edge cases while implementing solve N-Queens problem.
+924,Hard,Recursion & Backtracking,Architect a high-performance solution to search an element using binary search.
+925,Hard,Dynamic Programming,Design a scalable algorithm to find shortest path in a graph.
+926,Medium,Graphs,Implement implement Dijkstra's algorithm with time complexity O(n log n) or better.
+927,Medium,Linked List,Explain and implement an approach to validate parentheses.
+928,Medium,Strings,Design an efficient solution to merge two sorted arrays.
+929,Easy,Strings,Solve the problem of search an element using binary search.
+930,Hard,Searching & Sorting,Solve merge two sorted arrays with optimal time and space complexity.
+931,Easy,Dynamic Programming,Create a function to reverse an array.
+932,Hard,Graphs,Design a scalable algorithm to solve the knapsack problem.
+933,Easy,Dynamic Programming,Create a function to detect palindrome string.
+934,Hard,Arrays,Implement an advanced solution for find connected components in a graph.
+935,Hard,Searching & Sorting,Architect a high-performance solution to count inversions in an array.
+936,Easy,Searching & Sorting,Create a function to solve the knapsack problem.
+937,Hard,Arrays,Implement an advanced solution for find shortest path in a graph.
+938,Easy,Greedy Algorithms,Create a function to find connected components in a graph.
+939,Easy,Trees,Create a function to find connected components in a graph.
+940,Hard,Greedy Algorithms,Implement an advanced solution for implement Dijkstra's algorithm.
+941,Hard,Trees,Architect a high-performance solution to find majority element.
+942,Easy,Recursion & Backtracking,Write a program to solve N-Queens problem.
+943,Medium,Searching & Sorting,Explain and implement an approach to detect palindrome string.
+944,Medium,Greedy Algorithms,Explain and implement an approach to merge two sorted arrays.
+945,Hard,Strings,Solve count inversions in an array with optimal time and space complexity.
+946,Easy,Greedy Algorithms,Solve the problem of find the longest substring without repeating characters.
+947,Hard,Greedy Algorithms,Solve find shortest path in a graph with optimal time and space complexity.
+948,Medium,Strings,Design an efficient solution to perform level order traversal of a tree.
+949,Easy,Strings,Implement find maximum depth of a binary tree.
+950,Medium,Greedy Algorithms,Optimize an algorithm to solve the knapsack problem.
+951,Hard,Greedy Algorithms,Design a scalable algorithm to detect palindrome string.
+952,Hard,Graphs,Implement an advanced solution for merge two sorted arrays.
+953,Hard,Arrays,Solve merge two sorted arrays with optimal time and space complexity.
+954,Hard,Linked List,Implement an advanced solution for generate all permutations of a string.
+955,Hard,Searching & Sorting,Architect a high-performance solution to search an element using binary search.
+956,Hard,Graphs,Implement an advanced solution for implement Dijkstra's algorithm.
+957,Medium,Graphs,Design an efficient solution to merge two sorted arrays.
+958,Hard,Stack & Queue,Architect a high-performance solution to find shortest path in a graph.
+959,Easy,Searching & Sorting,Find find maximum depth of a binary tree.
+960,Hard,Dynamic Programming,Design a scalable algorithm to detect palindrome string.
+961,Medium,Recursion & Backtracking,Design an efficient solution to find shortest path in a graph.
+962,Medium,Strings,Explain and implement an approach to generate all permutations of a string.
+963,Easy,Arrays,Implement implement a stack using queues.
+964,Hard,Arrays,Solve count inversions in an array with optimal time and space complexity.
+965,Medium,Linked List,Solve find the longest substring without repeating characters using appropriate data structures.
+966,Medium,Searching & Sorting,Optimize an algorithm to find the longest substring without repeating characters.
+967,Hard,Greedy Algorithms,Architect a high-performance solution to find kth largest element.
+968,Easy,Dynamic Programming,Solve the problem of detect a cycle in a linked list.
+969,Medium,Graphs,Solve generate all permutations of a string using appropriate data structures.
+970,Hard,Dynamic Programming,Solve detect a cycle in a linked list with optimal time and space complexity.
+971,Hard,Stack & Queue,Implement an advanced solution for detect a cycle in a linked list.
+972,Easy,Stack & Queue,Create a function to find connected components in a graph.
+973,Hard,Greedy Algorithms,Architect a high-performance solution to search an element using binary search.
+974,Easy,Strings,Create a function to implement Dijkstra's algorithm.
+975,Medium,Strings,Design an efficient solution to generate all permutations of a string.
+976,Easy,Stack & Queue,Implement implement a stack using queues.
+977,Hard,Dynamic Programming,Design a scalable algorithm to find kth largest element.
+978,Hard,Greedy Algorithms,Design a scalable algorithm to find shortest path in a graph.
+979,Medium,Arrays,Solve solve the knapsack problem using appropriate data structures.
+980,Easy,Dynamic Programming,Solve the problem of implement LRU cache.
+981,Easy,Recursion & Backtracking,Create a function to solve the knapsack problem.
+982,Medium,Recursion & Backtracking,Optimize an algorithm to detect palindrome string.
+983,Easy,Dynamic Programming,Implement find majority element.
+984,Hard,Greedy Algorithms,Implement an advanced solution for find majority element.
+985,Easy,Arrays,Create a function to reverse an array.
+986,Easy,Recursion & Backtracking,Implement merge two sorted arrays.
+987,Hard,Dynamic Programming,Design a scalable algorithm to find maximum depth of a binary tree.
+988,Medium,Arrays,Solve find maximum depth of a binary tree using appropriate data structures.
+989,Easy,Trees,Find implement a stack using queues.
+990,Medium,Linked List,Implement solve the knapsack problem with time complexity O(n log n) or better.
+991,Easy,Strings,Write a program to validate parentheses.
+992,Medium,Arrays,Design an efficient solution to solve N-Queens problem.
+993,Easy,Trees,Implement solve N-Queens problem.
+994,Easy,Stack & Queue,Solve the problem of reverse an array.
+995,Easy,Graphs,Write a program to find shortest path in a graph.
+996,Easy,Stack & Queue,Write a program to implement a stack using queues.
+997,Hard,Graphs,Solve reverse an array with optimal time and space complexity.
+998,Hard,Linked List,Design a scalable algorithm to generate all permutations of a string.
+999,Easy,Stack & Queue,Write a program to find kth largest element.
+1000,Hard,Stack & Queue,Design a scalable algorithm to find shortest path in a graph.
