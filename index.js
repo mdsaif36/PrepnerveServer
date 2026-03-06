@@ -182,6 +182,31 @@ app.get('/api/questions', async (req, res) => {
     }
 });
 
+// --- ✅ ADDED: NEWS API (Initial Page Load) ---
+app.get('/api/news', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT * FROM news_feed ORDER BY created_at DESC LIMIT 20');
+        
+        if (result.rows && result.rows.length > 0) {
+            const formattedNews = result.rows.map(item => ({
+                id: item.id,
+                title: item.title,
+                category: item.category || 'Tech',
+                time: new Date(item.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+                summary: item.summary,
+                content: item.content
+            }));
+            return res.json(formattedNews);
+        }
+        
+        // Send an empty array if database is empty so frontend doesn't crash
+        return res.json([]); 
+    } catch (err) {
+        console.error("Database fetch failed for /api/news:", err.message);
+        res.status(500).json([]);
+    }
+});
+
 // --- MARKET API ---
 app.get('/api/market', async (req, res) => {
     const data = await generateMarketUpdate();
